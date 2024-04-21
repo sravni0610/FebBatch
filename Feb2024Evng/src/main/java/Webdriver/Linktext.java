@@ -15,5 +15,8 @@ public class Linktext {
         wd.findElement(By.linkText("Back")).click();
         wd.findElement(By.partialLinkText("Password")).click();
 
+        wd.findElement(By.linkText("Forgotten Password")).click();
+        wd.findElement(By.linkText("Back")).click();
+        wd.findElement(By.partialLinkText("Password")).click();
     }
 }
